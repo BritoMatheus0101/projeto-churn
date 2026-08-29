@@ -8,5 +8,3 @@ __pycache__/
 data/
 !data/.gitkeep
 
-models/*.pkl
-models/*.joblib
