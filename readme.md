@@ -37,6 +37,7 @@ Repositório estruturado para o Tech Challenge, compreendendo um ciclo completo 
 ├── 📄 .gitignore
 ├── 📄 requirements.txt              # Dependências congeladas do projeto
 └── 📄 README.md                     # Manual de instruções
+```
 
 --Obtenção do Dataset (Dados)
 Para projetos acadêmicos e portfólios, é comum isolar os dados brutos. Embora a API em produção funcione de forma autônoma utilizando apenas os arquivos binários salvos na pasta models/, o arquivo CSV é necessário caso você deseje reexecutar a Análise Exploratória de Dados (EDA) ou retreinar o modelo no Jupyter Notebook.
