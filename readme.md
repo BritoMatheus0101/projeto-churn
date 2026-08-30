@@ -15,25 +15,24 @@ Repositório estruturado para o Tech Challenge, compreendendo um ciclo completo 
 * **Joblib** (Serialização e persistência de artefatos)
 
 ```text
-## 📁 Estrutura do Repositório
 📁 projeto-techchallenge-f1/
 ├── 📁 data/
-│   └── 📄 Telco_Customer_Churn.csv  # Dataset original utilizado na EDA e treino (opcional para rodar a API)
+│   └── 📄 Telco_Customer_Churn.csv # Dataset original utilizado na EDA e treino (opcional para rodar a API)
 ├── 📁 docs/
 │   ├── 📄 ml_canvas.md              # Entendimento de negócio e métricas
 │   ├── 📄 MODEL_CARD.md             # Documentação de performance e vieses
-│   └── 📄 tracking_experimentos.csv  # Tabela comparativa de modelos (Baseline, Árvore, MLP)
+│   └── 📄 tracking_experimentos.csv # Tabela comparativa de modelos (Baseline, Árvore, MLP)
 ├── 📁 models/
 │   ├── 📄 champion_model.pkl        # Modelo preditivo vencedor
 │   └── 📄 scaler.pkl                # Padronizador de variáveis numéricas
 ├── 📁 notebooks/
-│   └── 📄 analise_dados_EDA.ipynb  # Notebook de EDA e treinamento inicial
+│   └── 📄 analise_dados_EDA.ipynb   # Notebook de EDA e treinamento inicial
 ├── 📁 src/
 │   ├── 📄 __init__.py               # Módulo de inicialização Python
 │   ├── 📄 app.py                    # Servidor da API (FastAPI)
 │   └── 📄 predict.py                # Classe de inferência e aplicação do scaler
 ├── 📁 tests/
-│   ├── 📁 __init__.py               # Módulo de testes Python
+│   ├── 📄 __init__.py               # Módulo de testes Python
 │   └── 📄 test_app.py               # Testes automatizados com Pytest
 ├── 📄 .gitignore
 ├── 📄 requirements.txt              # Dependências congeladas do projeto
