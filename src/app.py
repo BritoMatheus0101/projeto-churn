@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from typing import Dict, Any
 from pydantic import BaseModel, Field
 from src.predict import ChurnPredictor
 
