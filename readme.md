@@ -14,7 +14,7 @@ Repositório estruturado para o Tech Challenge, compreendendo um ciclo completo 
 * **Pytest & HTTPX** (Testes automatizados unitários e de integração)
 * **Joblib** (Serialização e persistência de artefatos)
 
-
+```text
 ## 📁 Estrutura do Repositório
 📁 projeto-techchallenge-f1/
 ├── 📁 data/
